@@ -120,9 +120,9 @@
           this._resizeConstraint.side - this._ctx.lineWidth / 2);
       //внутренний прямоугольник
       this._ctx.rect(
-          (-this._resizeConstraint.side / 2 - 3) - this._ctx.lineWidth / 2 + 0,
-          (-this._resizeConstraint.side / 2 - 3) - this._ctx.lineWidth / 2 + 0,
-          (this._resizeConstraint.side + 7) - this._ctx.lineWidth / 2 - 0,
+          (-this._resizeConstraint.side / 2 - 3) - this._ctx.lineWidth / 2,
+          (-this._resizeConstraint.side / 2 - 3) - this._ctx.lineWidth / 2,
+          (this._resizeConstraint.side + 7) - this._ctx.lineWidth / 2,
           (this._resizeConstraint.side + 7) - this._ctx.lineWidth / 2 - 0);
       // Восстановление состояния канваса, которое было до вызова ctx.save
       // и последующего изменения системы координат. Нужно для того, чтобы
